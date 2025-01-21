@@ -1,0 +1,10 @@
+name: esphome-custom-effects
+
+# Khai báo file .h/.cpp để chắc chắn chúng được biên dịch
+files:
+  - my_custom_effect.h
+  - my_custom_effect.cpp
+
+# Tuỳ chọn nếu muốn tự động include .h vào main.cpp
+includes:
+  - my_custom_effect.h
