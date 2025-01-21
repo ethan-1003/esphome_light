@@ -1,0 +1,11 @@
+name: my_addressable_lambda
+
+# Các file .h/.cpp bạn muốn ESPHome biên dịch
+files:
+  - my_addressable_lambda.h
+  - my_addressable_lambda.cpp
+
+# Tùy chọn: Tự động include .h vào main.cpp của ESPHome
+includes:
+  - my_addressable_lambda.h
+
